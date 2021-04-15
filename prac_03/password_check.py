@@ -1,8 +1,10 @@
 MINIMUM_LENGTH = 6
 
+
 def get_password():
     password = input("Enter password: ")
     return password
+
 
 def is_valid_password(password):
     while True:
@@ -14,8 +16,10 @@ def is_valid_password(password):
             print("Invalid Password")
             password = input("Enter password: ")
 
+
 def main():
     password = get_password()
     is_valid_password(password)
+
 
 main()
